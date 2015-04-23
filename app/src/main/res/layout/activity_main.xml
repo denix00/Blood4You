@@ -9,7 +9,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Why donate blood?"
         android:id="@+id/btnWhyDonate"
         android:layout_marginBottom="137dp"
         android:layout_alignParentBottom="true"
