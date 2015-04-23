@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">Blood4You</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="actionBarMain">Blood4You</string>
+    <string name="actionBarWhere">Gdje donirati</string>
+    <string name="actionBarAkcijeDarivanja">Akcije darivanja krvi</string>
+    <string name="actionBarSjediste">Sjedište</string>
+    <string name="actionBarRegistracija">Registracija</string>
+    <string name="actionBarLogin">Login</string>
+
+    <string name="btnWhyDonateBlood">Zašto donirati krv?</string>
+    <string name="btnLogin">Login</string>
+
+
+
 </resources>
