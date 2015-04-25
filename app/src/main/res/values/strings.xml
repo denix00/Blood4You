@@ -12,7 +12,7 @@
 
     <string name="btnWhyDonateBlood">Zašto donirati krv?</string>
     <string name="btnLogin">Login</string>
-
+    <string name="btnHelp">\?</string>
 
 
 </resources>

@@ -13,5 +13,48 @@
         android:id="@+id/btnWhyDonate"
         android:layout_marginBottom="137dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/btnColor"
+        android:clickable="true"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="@color/btnColor"
+        android:clickable="true"
+        android:elegantTextHeight="false"
+        android:layout_alignRight="@+id/btnWhyDonate"
+        android:layout_alignEnd="@+id/btnWhyDonate"
+        android:layout_alignLeft="@+id/btnWhyDonate"
+        android:layout_alignStart="@+id/btnWhyDonate"
+        android:gravity="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBtnDonate"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btnWhyDonate"
+        android:layout_alignLeft="@+id/btnWhyDonate"
+        android:layout_alignStart="@+id/btnWhyDonate"
+        android:layout_alignRight="@+id/btnWhyDonate"
+        android:layout_alignEnd="@+id/btnWhyDonate" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnHelp"
+        android:id="@+id/btnHelp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/btnColor"
+        android:clickable="true" />
+
 </RelativeLayout>
