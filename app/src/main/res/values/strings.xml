@@ -13,6 +13,9 @@
     <string name="btnWhyDonateBlood">Zašto donirati krv?</string>
     <string name="btnLogin">Login</string>
     <string name="btnHelp">\?</string>
+    <string name="title_activity_why_donate_blood">Why Donate Blood?</string>
+
+    <string name="whyDonateBlood">Ovdje će biti neki razlozi zašto donirati krv...</string>
 
 
 </resources>
