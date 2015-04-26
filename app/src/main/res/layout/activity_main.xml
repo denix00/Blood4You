@@ -9,26 +9,31 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Why donate blood?"
+        android:text="@string/btnWhyDonateBlood"
         android:id="@+id/btnWhyDonate"
-        android:layout_marginBottom="137dp"
+        android:layout_marginBottom="135dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/btnColor"
+        android:background="@color/btnColor"
         android:clickable="true"
         android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textSize="15dp"
+        android:width="165dp"
         android:onClick="clickHandlerWhyDonate" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/btnLogin"
         android:id="@+id/btnLogin"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="62dp"
-        android:backgroundTint="@color/btnColor"
+        android:background="@color/btnColor"
         android:clickable="true"
         android:elegantTextHeight="false"
+        android:textSize="15dp"
         android:layout_alignRight="@+id/btnWhyDonate"
         android:layout_alignEnd="@+id/btnWhyDonate"
         android:layout_alignLeft="@+id/btnWhyDonate"
@@ -44,7 +49,8 @@
         android:layout_alignLeft="@+id/btnWhyDonate"
         android:layout_alignStart="@+id/btnWhyDonate"
         android:layout_alignRight="@+id/btnWhyDonate"
-        android:layout_alignEnd="@+id/btnWhyDonate" />
+        android:layout_alignEnd="@+id/btnWhyDonate"
+        android:layout_marginBottom="20dp"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"
