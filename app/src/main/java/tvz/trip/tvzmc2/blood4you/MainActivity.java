@@ -1,11 +1,13 @@
 package tvz.trip.tvzmc2.blood4you;
 
+import android.app.DialogFragment;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 
 
 public class MainActivity extends ActionBarActivity {
@@ -44,5 +46,12 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intentWhyDonate);
     }
 
+
+    public void clickHandlerHelp (View view)
+    {
+        DialogFragment helpDialogFragment = new HelpDialog();
+        helpDialogFragment.show(getFragmentManager(), "helpProzor");
+
+    }
 
 }
