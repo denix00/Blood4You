@@ -12,6 +12,7 @@
         android:text="@string/naslovDialoga"
         android:textSize="40dp"
         android:gravity="center"
+        android:textColor="@android:color/black"
         />
 
     <TextView
