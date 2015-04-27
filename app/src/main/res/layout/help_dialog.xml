@@ -37,7 +37,7 @@
         android:layout_marginRight="6dp"
         android:layout_marginBottom="16dp"
         android:padding="5dp"
-        android:text="Aplikacija je djelo Trip tima kojeg čine:\nDenis Glad\nTimotej Jarc\nMatko Horvat"
+        android:text="@string/opisTima"
 
         android:background="@android:color/background_light"
         android:textColor="@android:color/background_dark"

@@ -15,12 +15,13 @@
     <string name="btnHelp">\?</string>
     <string name="title_activity_why_donate_blood">Why Donate Blood?</string>
 
-    <string name="whyDonateBlood">Ovdje će biti neki razlozi zašto donirati krv...</string>
+    <string name="whyDonateBlood">Ovdje će biti neki razlozi zašto donirati krv</string>
 
 
     <string name="naslovDialoga">Blood4You</string>
 
     <string name="opisAplikacije">Blood4You je Android aplikacija koja darivateljima krvi pomaže pratiti akcije darivanja krvi. Uz to podsjeća korisnika kada može ponovo dati krv, prikazuje mu povijest darivanja krvi, pomoću push notifikacije prikazuje kada se pojavi nova akcija darivanja krvi, prikazuje mu lokaciju gdje se akcija održava te ga navigira prema lokaciji, omogućuje mu postavljanje prikladnog statusa na društvene mreže te statistike darivanja.</string>
 
+    <string name="opisTima">Aplikacija je djelo Trip tima kojeg čine:\nDenis Glad\nTimotej Jarc\nMatko Horvat</string>
 
 </resources>
