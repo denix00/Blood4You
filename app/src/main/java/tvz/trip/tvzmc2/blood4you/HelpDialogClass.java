@@ -20,7 +20,7 @@ public class HelpDialogClass extends DialogFragment {
 
                 .setNegativeButton("Ok", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        HelpDialog.this.getDialog().cancel();
+                        HelpDialogClass.this.getDialog().cancel();
                     }
                 });
 
