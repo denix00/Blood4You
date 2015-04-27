@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.parse.Parse;
+import com.parse.ParseInstallation;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -16,6 +18,10 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Postavljanje ID i klijent kljuæa za Parse.org push notifikacije
+        Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
+        ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 
     @Override
