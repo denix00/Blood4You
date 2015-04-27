@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void clickHandlerWhyDonate(View view)
     {
-        Intent intentWhyDonate = new Intent(this, WhyDonateBlood.class);
+        Intent intentWhyDonate = new Intent(this, Instructions.class);
         startActivity(intentWhyDonate);
     }
 

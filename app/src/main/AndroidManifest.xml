@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WhyDonateBlood"
-            android:label="@string/title_activity_why_donate_blood"
+            android:name=".Instructions"
+            android:label="@string/title_activity_instructions"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
