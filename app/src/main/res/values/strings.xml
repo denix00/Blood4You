@@ -13,6 +13,7 @@
     <string name="btnInstructions">Donation instructions</string>
     <string name="btnLogin">Login</string>
     <string name="btnHelp">\?</string>
+    <string name="btnReg">\reg</string>
     <string name="title_activity_instructions">Donation instructions</string>
 
     <string name="instructions">INSTRUCTIONS AND REMARKS FOR DONATING\n\n\n

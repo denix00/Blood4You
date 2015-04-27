@@ -59,11 +59,23 @@
         android:layout_height="wrap_content"
         android:text="@string/btnHelp"
         android:id="@+id/btnHelp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:background="@drawable/round_btn"
         android:clickable="true"
-        android:onClick="clickHandlerHelp"/>
+        android:onClick="clickHandlerHelp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnReg"
+        android:id="@+id/btnReg"
+        android:background="@drawable/round_btn"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
