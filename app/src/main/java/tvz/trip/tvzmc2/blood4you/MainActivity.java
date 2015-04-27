@@ -49,7 +49,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void clickHandlerHelp (View view)
     {
-        DialogFragment helpDialogFragment = new HelpDialog();
+        DialogFragment helpDialogFragment = new HelpDialogClass();
         helpDialogFragment.show(getFragmentManager(), "helpProzor");
 
     }

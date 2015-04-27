@@ -10,7 +10,7 @@
         android:layout_height="60dp"
         android:background="@color/btnColor"
         android:text="@string/naslovDialoga"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:gravity="center"
         android:textColor="@android:color/black"
         />
