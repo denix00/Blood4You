@@ -10,6 +10,7 @@
     <string name="actionBarRegistracija">Registracija</string>
     <string name="actionBarLogin">Login</string>
 
+    <string name="btnDonate">DONATE</string>
     <string name="btnInstructions">Donation instructions</string>
     <string name="btnLogin">Login</string>
     <string name="btnHelp">\?</string>
@@ -38,5 +39,7 @@
     <string name="opisAplikacije">Blood4You je Android aplikacija koja darivateljima krvi pomaže pratiti akcije darivanja krvi. Uz to podsjeća korisnika kada može ponovo dati krv, prikazuje mu povijest darivanja krvi, pomoću push notifikacije prikazuje kada se pojavi nova akcija darivanja krvi, prikazuje mu lokaciju gdje se akcija održava te ga navigira prema lokaciji, omogućuje mu postavljanje prikladnog statusa na društvene mreže te statistike darivanja.</string>
 
     <string name="opisTima">Aplikacija je djelo Trip tima kojeg čine:\nDenis Glad\nTimotej Jarc\nMatko Horvat</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 
 </resources>

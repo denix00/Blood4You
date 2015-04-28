@@ -40,10 +40,10 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void clickHandlerWhyDonate(View view)
+    public void clickHandlerInstructions(View view)
     {
-        Intent intentWhyDonate = new Intent(this, Instructions.class);
-        startActivity(intentWhyDonate);
+        Intent intentInstructions = new Intent(this, Instructions.class);
+        startActivity(intentInstructions);
     }
 
 

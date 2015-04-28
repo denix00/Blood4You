@@ -3,6 +3,7 @@
 
     <!--    <item name="pozadinaMain2" type="color">#fffdd6d6</item>    -->
     <item name="pozadinaMain" type="color">#8faaaaaa</item>
-    <item name="btnColor" type="color">#ffff4f54</item>
-    <item name="android" type="color">#ffff4f54</item>
+    <item name="btnColor" type="color">#ff971515</item>
+    <item name="android" type="color">#ff971515</item>
+    <item name="textColor" type="color">#ffffffff</item>
 </resources>
