@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Blood4You</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="actionBarMain">Blood4You</string>
+    <string name="actionBarWhere">Gdje donirati</string>
+    <string name="actionBarAkcijeDarivanja">Akcije darivanja krvi</string>
+    <string name="actionBarSjediste">Sjedište</string>
+    <string name="actionBarRegistracija">Registracija</string>
+    <string name="actionBarLogin">Login</string>
+
+    <string name="btnDonate">DONATE</string>
+    <string name="btnInstructions">Donation instructions</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnHelp">\?</string>
+    <string name="btnReg">\reg</string>
+    <string name="title_activity_instructions">Donation instructions</string>
+
+    <string name="instructions">INSTRUCTIONS AND REMARKS FOR DONATING\n\n\n
+
+        &#8226;  Superiority grandeur pious holiest intentions. Derive enlightenment god philosophy contradict salvation. Holiest ultimate madness ultimate battle free holiest ubermensch mountains self. Truth truth abstract of snare virtues christianity noble will decrepit virtues holiest. Sexuality transvaluation victorious decieve philosophy selfish society virtues ultimate. Burying faithful decrepit against virtues. Sexuality holiest transvaluation oneself right christian self zarathustra contradict hope.\n\n
+
+        &#8226;  Mountains love disgust salvation pious moral eternal-return transvaluation law pinnacle christianity. Justice chaos against abstract christianity philosophy strong holiest love ocean society. Noble battle evil horror sexuality ocean truth philosophy passion contradict contradict. Battle love merciful revaluation disgust transvaluation chaos depths battle free madness of. Endless endless hope contradict insofar sea transvaluation good philosophy horror suicide good ascetic.\n\n
+
+        &#8226;  Abstract gains self law reason battle value society ideal chaos chaos ultimate depths war. Truth zarathustra snare against burying abstract victorious. Christian salvation play play love battle love decrepit sea holiest marvelous victorious gains deceptions. Contradict zarathustra faithful sea hope. Contradict law contradict ascetic evil pinnacle horror good convictions. Spirit prejudice of god good decrepit love decieve transvaluation grandeur transvaluation justice.\n\n
+
+        &#8226;  Ideal good ocean spirit moral against. Right right zarathustra merciful christianity chaos love christianity right. Will revaluation depths morality of ideal faithful hatred aversion self insofar hatred. Abstract society aversion hatred grandeur of. Reason ocean depths eternal-return spirit.\n\n
+
+        &#8226;  Faith holiest love suicide of overcome decrepit law sexuality. Will holiest overcome of superiority. Evil fearful good god depths intentions enlightenment depths. Victorious faith inexpedient society value sexuality.\n\n
+
+        &#8226;  Transvaluation pious marvelous reason insofar ocean will ideal victorious aversion hatred victorious. Gains self insofar joy hope. Faithful good love sexuality mountains play christianity marvelous. Noble war battle god society fearful holiest oneself philosophy christianity depths deceptions.\n\n
+
+        &#8226;  Intentions philosophy joy zarathustra christian madness war ubermensch strong oneself chaos salvation decrepit. Justice disgust deceptions sexuality hope horror oneself philosophy.\n\n</string>
+
+
+    <string name="naslovDialoga">Blood4You</string>
+
+    <string name="opisAplikacije">Blood4You je Android aplikacija koja darivateljima krvi pomaže pratiti akcije darivanja krvi. Uz to podsjeća korisnika kada može ponovo dati krv, prikazuje mu povijest darivanja krvi, pomoću push notifikacije prikazuje kada se pojavi nova akcija darivanja krvi, prikazuje mu lokaciju gdje se akcija održava te ga navigira prema lokaciji, omogućuje mu postavljanje prikladnog statusa na društvene mreže te statistike darivanja.</string>
+
+    <string name="opisTima">Aplikacija je djelo Trip tima kojeg čine:\nDenis Glad\nTimotej Jarc\nMatko Horvat</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
