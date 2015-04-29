@@ -4,12 +4,16 @@ import android.app.DialogFragment;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 import com.parse.Parse;
+import com.parse.ParseException;
 import com.parse.ParseInstallation;
+import com.parse.ParsePush;
+import com.parse.SaveCallback;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -20,10 +24,11 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         //Parse.com API omogucavanje LocalDatastorea za spremanje podatak
-           Parse.enableLocalDatastore(this);
+         //  Parse.enableLocalDatastore(this);
           // Postavljanje ID i klijent kljuca za Parse.org push notifikacije
-           Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
-           ParseInstallation.getCurrentInstallation().saveInBackground();
+        Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
+        ParseInstallation.getCurrentInstallation().saveInBackground();
+
     }
 
     @Override
