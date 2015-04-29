@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-c719129c51f69837e9f704ea84b64f6932df55ea.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-4fe982f4d7c692a195d67d37b7d000a06678d1e9.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-409aa7c18fcbb23faa96758fb8c83d64ff4a6468.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-73e1c11050a024e881cbe8ea01197a65c8c76b0c.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-ba7746baf565bdf9f32df567c3d67a1a63eca42a.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-66d4d224ca7828619bc9b637de15a947281bf17a.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-8f715e1b5de3cda85f6400242c891dc834c21ed6.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-599986b0cd8560b602a5d9f82a9eabadcf52d46f.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-4d304f78669e52ae1e51cca44122f66db93c2275.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-3e9bed779068ae6f8eb3a11ff883b7b2d3d40d3e.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-96474b3f73866f2f156b3928a6e98b0810f32424.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-0c2be2d317de567fceee626db36b1c8245a5170a.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-53c14787d92f8b93d78f57fae357ba705e264fb3.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-10886e388ba9a646b4c009709c9de59982a6b006.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-952fdb9b8d3ad8e0796eab10403adade9198866c.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-4d636a149fa51ab3d5162162f7ddadac84696058.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-49ab68470b6ba8a3dba80330811253492fa8e1ad.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-5ba248f90ae57db734ba25fb42bd44f72b040ce9.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-ed9aeda2d95680ac04f9af2de10e4f07ae13f152.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-e27827939193cae7737360784879cb100a5cace9.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-fd3d69b9858b518d32b7da750864851ac372da1d.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-31ee22cfe82414031bc92b1c7afc1ab0b6a37072.jar" />
+    </item>
+    <item
+        jar="E:\Android-studio\Blood4You\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="E:\Android-studio\Blood4You\app\build\intermediates\pre-dexed\debug\classes-d7111a689d464984510a4fdc9960da5152dba406.jar" />
+    </item>
+
+</items>
