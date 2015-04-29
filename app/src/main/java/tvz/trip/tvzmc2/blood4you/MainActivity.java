@@ -4,21 +4,12 @@ import android.app.DialogFragment;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 
-import com.parse.FindCallback;
-import com.parse.GetCallback;
 import com.parse.Parse;
-import com.parse.ParseException;
 import com.parse.ParseInstallation;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
-
-import java.util.List;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -29,38 +20,10 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         //Parse.com API omogucavanje LocalDatastorea za spremanje podatak
-     //   Parse.enableLocalDatastore(this);
-     //   Postavljanje ID i klijent kljuca za Parse.org push notifikacije
-     //   Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
-     //   ParseInstallation.getCurrentInstallation().saveInBackground();
-
-    //    Primjer kako slati podatke na parse.com
-     //   ParseObject gameScore = new ParseObject("GameScore");
-     //   gameScore.put("score", 1000);
-     //   gameScore.put("playerName", "Denis Glad");
-     //   gameScore.put("cheatMode", false);
-     //   gameScore.saveInBackground();
-
-       // final EditText ispisText = (EditText) findViewById(R.id.editText);
-     //   ispisText.setTextSize(10);
-
-        // kod za skidanje liste podataka sa servera
- /*       ParseQuery<ParseObject> query = ParseQuery.getQuery("Lokacije");
-        query.whereExists("grad");
-        query.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> list, ParseException e) {
-                if(e == null){
-                    String imena = "";
-                    for(int i = 0; i< list.size(); i++)
-                    {
-                        imena +=  list.get(i).getString("grad") + "\n";
-                    }
-                    ispisText.setText(imena);
-                } else {
-                    ispisText.setText("Error: " + e.getMessage());
-                }
-            }
-        });*/
+           Parse.enableLocalDatastore(this);
+          // Postavljanje ID i klijent kljuca za Parse.org push notifikacije
+           Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
+           ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 
     @Override
@@ -85,10 +48,10 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void clickHandlerWhyDonate(View view)
+    public void clickHandlerInstructions(View view)
     {
-        Intent intentWhyDonate = new Intent(this, WhyDonateBlood.class);
-        startActivity(intentWhyDonate);
+        Intent intentInstructions = new Intent(this, Instructions.class);
+        startActivity(intentInstructions);
     }
 
 
