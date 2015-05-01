@@ -22,10 +22,10 @@ public class MainActivity extends ActionBarActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         //Parse.com API omogucavanje LocalDatastorea za spremanje podatak
-        Parse.enableLocalDatastore(this);
-          // Postavljanje ID i klijent kljuca za Parse.org push notifikacije
-        Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
-        ParseInstallation.getCurrentInstallation().saveInBackground();
+       // Parse.enableLocalDatastore(this);
+       // Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
+
+      //  ParseInstallation.getCurrentInstallation().saveInBackground();
 
     }
 
