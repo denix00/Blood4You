@@ -13,7 +13,8 @@ import java.util.List;
 
 public class SpecialAdapter extends BaseAdapter {
     //Defining the background color of rows. The row will alternate between green light and green dark.
-    private int[] colors = new int[] { 0xAAf6ffc8, 0xAA538d00 };
+//    private int[] colors = new int[] { 0xff971515, 0xff971515 };
+    private int color = 0xff971515;
     private LayoutInflater mInflater;
 
     //The variable that will hold our text data to be tied to list.
@@ -69,8 +70,9 @@ public class SpecialAdapter extends BaseAdapter {
         holder.txtDatumVrijeme.setText(lokacije.get(position).getDatum().toString().substring(0,9) + "\n" + lokacije.get(position).getRadnoVrijeme());
 
         //Set the background color depending of  odd/even colorPos result
-        int colorPos = position % colors.length;
-        convertView.setBackgroundColor(colors[colorPos]);
+//        int colorPos = position % colors.length;
+//        convertView.setBackgroundColor(colors[colorPos]);
+        convertView.setBackgroundColor(color);
 
         return convertView;
     }

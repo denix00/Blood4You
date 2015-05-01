@@ -30,14 +30,6 @@ public class ListActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        //Parse.com API omogucavanje LocalDatastorea za spremanje podatak
-  //      Parse.enableLocalDatastore(this);
-        // Postavljanje ID i klijent kljuca za Parse.org push notifikacije
- //       Parse.initialize(this, "ktFmKOz8T5IGliFKtextHg6v0h50TgNivRNH3Bgx", "zkPwjxF15u4TGr27p4LutfRkvZfI36rQl5AgUWHl");
- //       ParseInstallation.getCurrentInstallation().saveInBackground();
-
-
-
         //Dohvacanje podataka s parse.com
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Lokacije");
         query.whereExists("grad");
