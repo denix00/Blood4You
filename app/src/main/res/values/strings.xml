@@ -44,4 +44,6 @@
     <string name="title_activity_list">List</string>
 
 
+    <string name="toastNemaInterneta">Network is not available!</string>
+
 </resources>

@@ -28,6 +28,9 @@
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- za metodu provjere dostupnosti veze prema Internetu -->
+
     <application
         android:name="tvz.trip.tvzmc2.blood4you.App"
         android:allowBackup="true"
