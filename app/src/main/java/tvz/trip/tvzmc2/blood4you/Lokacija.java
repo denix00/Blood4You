@@ -5,10 +5,10 @@ import java.util.Date;
 
 public class Lokacija {
 
-    private String grad, adresa, radnoVrijeme;
-    private Date datum;
+    private String grad, adresa, radnoVrijeme, datum;
+//    private Date datum;
     private Boolean izvanredna;
-    public Lokacija(String grad, String adresa, Date datum, Boolean izvanredna, String radnoVrijeme)
+    public Lokacija(String grad, String adresa, String datum, Boolean izvanredna, String radnoVrijeme)
     {
         this.grad = grad;
         this.adresa = adresa;
@@ -20,7 +20,7 @@ public class Lokacija {
     public String getGrad() {  return grad; }
     public String getAdresa() {  return adresa; }
     public String getRadnoVrijeme() {  return radnoVrijeme; }
-    public Date getDatum() {   return datum;   }
+    public String getDatum() {   return datum;   }
     public Boolean getIzvanredna() {    return izvanredna;  }
 }
 

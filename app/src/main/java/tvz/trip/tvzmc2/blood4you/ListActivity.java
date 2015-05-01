@@ -9,9 +9,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.parse.FindCallback;
-import com.parse.Parse;
 import com.parse.ParseException;
-import com.parse.ParseInstallation;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
@@ -39,16 +37,35 @@ public class ListActivity extends ActionBarActivity {
                 if (e == null) {
                     for (int i = 0; i < list.size(); i++) {
                         String grad = list.get(i).getString("grad");
-                        Log.d("grad" + i, grad);
+                     //   Log.d("grad" + i, grad);
                         String adresa = list.get(i).getString("adresa");
-                        Log.d("adresa" + i, adresa);
-                        //Date datum = list.get(i).getDate("datum");
-                        Date datum = new Date(0, 0, 1);
-                        Log.d("datum" + i, datum.toString());
+                     //   Log.d("adresa" + i, adresa);
+
+                        /*
+                        getDate() metoda iz neobjasnjivog razloga rusi aplikaciju, stoga je u bazi datum spremljen kao String, te se tako i dohvaca.
+                         */
+
+                     //   Date datumString = list.get(i).getDate("datum");
+                     //   Log.d("DatumString", list.get(i).getDate("datum").toString());
+                     //   Date datum = new Date(0, 0, 1);
+                        String datum = list.get(i).getString("datumString");
                         Boolean izvanredna = list.get(i).getBoolean("izvanredna");
-                        Log.d("izvanredna" + i, izvanredna.toString());
+                        if(datum == null && izvanredna == false)
+                        {
+                            datum = "Stalna akcija";
+                        }
+                        else if(datum == null)
+                        {
+                            datum = "Datum uskoro";
+                        }
+                     //   Log.d("datum" + i, datum.toString());
+                     //   Log.d("izvanredna" + i, izvanredna.toString());
                         String radnoVrijeme = list.get(i).getString("radnoVrijeme");
-                        Log.d("radnoVrijeme" + i, radnoVrijeme);
+                        if(radnoVrijeme == null)
+                        {
+                            radnoVrijeme = "Cijeli dan";
+                        }
+                     //   Log.d("radnoVrijeme" + i, radnoVrijeme);
 
                         Lokacija tmpLokacija = new Lokacija(grad, adresa, datum, izvanredna, radnoVrijeme);
                         lokacije.add(tmpLokacija);
@@ -56,16 +73,16 @@ public class ListActivity extends ActionBarActivity {
                 }
                 //doslo je do pogreske
                 else {
-                    String grad = "error";
-                    String adresa = "error";
-                    Date datum = new Date(0, 0, 1);
+                    String grad = "Pogreska pri dohvatu podataka";
+                    String adresa = "";
+                    String datum = "error";
                     Boolean izvanredna = true;
                     String radnoVrijeme = "error";
 
                     Lokacija tmpLokacija = new Lokacija(grad, adresa, datum, izvanredna, radnoVrijeme);
                     lokacije.add(tmpLokacija);
                 }
-                Log.d("Broj lokacija List:", String.valueOf(lokacije.size()));
+            //    Log.d("Broj lokacija List:", String.valueOf(lokacije.size()));
 
                 ListView lista = (ListView) findViewById(R.id.list);
                 SpecialAdapter adapter = new SpecialAdapter(ListActivity.this, lokacije);

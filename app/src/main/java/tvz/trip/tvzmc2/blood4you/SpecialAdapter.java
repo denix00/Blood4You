@@ -67,7 +67,8 @@ public class SpecialAdapter extends BaseAdapter {
         }
         // Bind the data efficiently with the holder.
         holder.txtGradUlica.setText(lokacije.get(position).getGrad() + "\n" + lokacije.get(position).getAdresa());
-        holder.txtDatumVrijeme.setText(lokacije.get(position).getDatum().toString().substring(0,9) + "\n" + lokacije.get(position).getRadnoVrijeme());
+       // holder.txtDatumVrijeme.setText(lokacije.get(position).getDatum().toString().substring(0,9) + "\n" + lokacije.get(position).getRadnoVrijeme());
+        holder.txtDatumVrijeme.setText(lokacije.get(position).getDatum() + "\n" + lokacije.get(position).getRadnoVrijeme());
 
         //Set the background color depending of  odd/even colorPos result
 //        int colorPos = position % colors.length;
