@@ -24,7 +24,7 @@ import tvz.trip.tvzmc2.blood4you.dummy.DummyContent;
  * Activities containing this fragment MUST implement the {@link OnFragmentInteractionListener}
  * interface.
  */
-public class popisAkcija extends Fragment implements AbsListView.OnItemClickListener {
+public class PopisAkcijaFragment extends Fragment implements AbsListView.OnItemClickListener {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -49,8 +49,8 @@ public class popisAkcija extends Fragment implements AbsListView.OnItemClickList
     private ListAdapter mAdapter;
 
     // TODO: Rename and change types of parameters
-    public static popisAkcija newInstance(String param1, String param2) {
-        popisAkcija fragment = new popisAkcija();
+    public static PopisAkcijaFragment newInstance(String param1, String param2) {
+        PopisAkcijaFragment fragment = new PopisAkcijaFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,7 +62,7 @@ public class popisAkcija extends Fragment implements AbsListView.OnItemClickList
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public popisAkcija() {
+    public PopisAkcijaFragment() {
     }
 
     @Override
