@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-
+<!-- Promjena boja pozadine actionBara u crvenu i promjena boje teksta u njemu u bijelu -->
     <style name="CustomActionBarTheme"
         parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBar</item>
