@@ -36,8 +36,7 @@ public class ListActivity extends ActionBarActivity {
         if(isNetworkAvailable() == false)
         {
             Toast.makeText(this, R.string.toastNemaInterneta, Toast.LENGTH_LONG).show();
-            Intent mainActivity = new Intent(this, MainActivity.class);
-            startActivity(mainActivity);
+            finish();
         }
 
         //Dohvacanje podataka s parse.com

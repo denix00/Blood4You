@@ -19,7 +19,7 @@
         android:text="@string/btnDonate"
         android:id="@+id/btnDonate"
         android:background="@android:color/transparent"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="@color/textColor"
         android:layout_marginTop="120dp"
         android:layout_marginLeft="50dp"
@@ -37,7 +37,7 @@
         android:gravity="center"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:textSize="10dp"
+        android:textSize="12sp"
         android:width="165dp"
         android:onClick="clickHandlerInstructions"
         android:textColor="@color/textColor"
@@ -52,7 +52,7 @@
         android:id="@+id/btnLogin"
         android:background="@color/btnColor"
         android:clickable="true"
-        android:textSize="10dp"
+        android:textSize="12sp"
         android:gravity="center"
         android:textColor="@color/textColor"
         android:layout_centerHorizontal="true"
@@ -71,21 +71,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
 
-    <!--    <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:src="@drawable/round_btn"
-            android:icon="@drawable/reg2_v2"
-            android:clickable="true"
-            android:layout_alignParentBottom="true"
-            android:textColor="@color/textColor"
-            android:layout_alignTop="@+id/btnHelp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_toEndOf="@+id/btnWhyDonate"
-            android:layout_toRightOf="@+id/btnWhyDonate" />
- -->
+
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
