@@ -4,7 +4,7 @@
     <string name="action_settings">Postavke</string>
 
     <string name="actionBarMain">Blood4You</string>
-    <string name="actionBarWhere">Gdje donirati</string>
+    <string name="actionBarList">Lokacije doniranja</string>
     <string name="actionBarAkcijeDarivanja">Akcije darivanja krvi</string>
 
     <string name="btnDonate">DONIRAJ</string>
@@ -48,5 +48,7 @@
     <string name="dialogGumbOk">"Zatvori"</string>
 
     <string name="pogreskaPriDohvatu">Pogreska pri dohvatu podataka</string>
+    <string name="actionBarLogin">Prijava</string>
+    <string name="actionBarRegistracija">Registracija</string>
 
 </resources>
