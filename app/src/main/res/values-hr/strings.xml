@@ -14,21 +14,57 @@
     <string name="btnReg">Reg</string>
     <string name="title_activity_instructions">Smjernice i napomene</string>
 
-    <string name="instructions">INSTRUCTIONS AND REMARKS FOR DONATING\n\n\n
+    <string name="instructions">TKO MOŽE DARIVATI KRV?\n\n
 
-        &#8226;  Superiority grandeur pious holiest intentions. Derive enlightenment god philosophy contradict salvation. Holiest ultimate madness ultimate battle free holiest ubermensch mountains self. Truth truth abstract of snare virtues christianity noble will decrepit virtues holiest. Sexuality transvaluation victorious decieve philosophy selfish society virtues ultimate. Burying faithful decrepit against virtues. Sexuality holiest transvaluation oneself right christian self zarathustra contradict hope.\n\n
+        Krv može darivati svaki čovjek dobrog općeg zdravstvenog stanja:\n
 
-        &#8226;  Mountains love disgust salvation pious moral eternal-return transvaluation law pinnacle christianity. Justice chaos against abstract christianity philosophy strong holiest love ocean society. Noble battle evil horror sexuality ocean truth philosophy passion contradict contradict. Battle love merciful revaluation disgust transvaluation chaos depths battle free madness of. Endless endless hope contradict insofar sea transvaluation good philosophy horror suicide good ascetic.\n\n
+        &#8226; Dob: od 18 do 65 godina\n
+        &#8226; Tjelesna težina: iznad 55 kg, proporcionalna visini\n
+        &#8226; Tjelesna temperatura: do 37°C\n
+        &#8226; Krvni tlak: sistolični 100 do 180 mm Hg, dijastolični 60 do 110 mm Hg\n
+        &#8226; Puls: 50 do 100 otkucaja u minuti.\n\n\n
 
-        &#8226;  Abstract gains self law reason battle value society ideal chaos chaos ultimate depths war. Truth zarathustra snare against burying abstract victorious. Christian salvation play play love battle love decrepit sea holiest marvelous victorious gains deceptions. Contradict zarathustra faithful sea hope. Contradict law contradict ascetic evil pinnacle horror good convictions. Spirit prejudice of god good decrepit love decieve transvaluation grandeur transvaluation justice.\n\n
+        TKO NE SMIJE DARIVATI KRV?\n\n
 
-        &#8226;  Ideal good ocean spirit moral against. Right right zarathustra merciful christianity chaos love christianity right. Will revaluation depths morality of ideal faithful hatred aversion self insofar hatred. Abstract society aversion hatred grandeur of. Reason ocean depths eternal-return spirit.\n\n
+        Trajno se odbijaju osobe koje su zbog svog ponašanja ili aktivnosti izložene riziku
+        dobivanja zaraznih bolesti koje se mogu prenijeti krvlju:
 
-        &#8226;  Faith holiest love suicide of overcome decrepit law sexuality. Will holiest overcome of superiority. Evil fearful good god depths intentions enlightenment depths. Victorious faith inexpedient society value sexuality.\n\n
+        &#8226; ovisnici o alkoholu ili drogama\n
+        &#8226; muškarci koji su u životu imali spolne odnose s drugim muškarcima\n
+        &#8226; žene i muškarci koji su imali spolni odnos s prostitutkama\n
+        &#8226; osobe koje često mijenjaju seksualne partnere (promiskuitetne osobe)\n
+        &#8226; osobe koje su uzimale drogu intravenskim putem\n\n
+        &#8226; osobe koje su liječene zbog spolno prenosivih bolesti (sifilis, gonoreja)\n
+        &#8226; osobe koje su HIV-pozitivne\n
+        &#8226; seksualni partneri gore navedenih osoba\n\n\n
 
-        &#8226;  Transvaluation pious marvelous reason insofar ocean will ideal victorious aversion hatred victorious. Gains self insofar joy hope. Faithful good love sexuality mountains play christianity marvelous. Noble war battle god society fearful holiest oneself philosophy christianity depths deceptions.\n\n
+        KAKO ČESTO SE MOŽE DARIVATI KRV?\n\n
 
-        &#8226;  Intentions philosophy joy zarathustra christian madness war ubermensch strong oneself chaos salvation decrepit. Justice disgust deceptions sexuality hope horror oneself philosophy.\n\n</string>
+        Muškarci mogu darivati punu krv svaka 3 mjeseca, a žene svaka 4 mjeseca.\n\n\n
+
+        ZAŠTO SE DARIVANJE KRVI NE PLAĆA?\n\n
+
+        Darivanje krvi za novčanu naknadu je vrsta poslovno-trgovačkog odnosa. Zbog materijalne nagrade plaćeni darivatelji često prešućuju važne podatke o osobnom zdravstvenom stanju te darivanje krvi može narušiti njihovo zdravlje, a primjena njihove krvi za liječenje može pogoršati stanje bolesnika.\n\n
+        &#8226; U plaćenih darivatelja krvi 10 puta je veća učestalost prisutnosti uzročnika zaraznih bolesti 	koje se prenose krvlju: hepatitis B i C, sifilis i AIDS. Transfuzije krvi od plaćenih 	darivatelja imaju veći rizik za prijenos tih bolesti u bolesnika.\n\n
+
+        &#8226; Osim toga, plaćanjem darivanje krvi nije moguće motivirati dovoljan broj osoba za darivanje 	krvi i samo plaćanjem darivatelja nije moguće uvijek osigurati potrebno transfuzijsko 	liječenje svim bolesnicima.\n\n
+        &#8226; U nekim zemljama plaća se darivanje plazme iz koje se proizvode određeni lijekovi.
+     	U Hrvatskoj se, kao i u najrazvijenijim zemljama svijeta, zbog zaštite i sigurnosti 	bolesnika 	te pravodobnog i uspješnog transfuzijkog liječenja provodi samo dobrovoljno 	darivanje krvi.\n\n\n
+
+        MORA LI SE PRIJE DARIVANJA KRVI BITI "NA TAŠTE"?\n\n
+
+        Prije davanja krvi nije potrebno biti natašte.\n
+        Davanje krvi je sastavni dio svakodnevnog ljudskog načina života i čovjek na taj dan treba uobičajeno jesti i piti.\n
+        Osjećati ćete se bolje ako nekoliko sati prije davanja krvi pojedete lagani obrok. Jedino Vas molimo da unutar 8 sati prije davanja krvi ne jedete izrazito masnu hranu i ne pijete alkohol jer njihovi sastojci mogu transfuzijom krvi biti uneseni u bolesnika i nanijeti mu štetu.\n\n\n
+
+        MORA LI SE NAKON DARIVANJA KRVI NEŠTO POJESTI I POPITI?\n\n
+
+        Posebni medicinski razlozi ne zabranjuju darivatelju da jede ili pije nakon davanja krvi. To je oblik društvenog ponašanja.\n
+
+        Uobičajeno je nakon darivanja krvi sjesti u društvu drugih darivatelja i osvježiti se laganim obrokom i bezalkoholnim pićem.\n
+        Kroz to vrijeme darivatelj je pod kontrolom zdravstvenih djelatnika. Želimo znati da se dobro osjećate prije nego napustite mjesto darivanja krvi.\n
+
+       </string>
 
 
     <string name="naslovDialoga">Blood4You</string>
@@ -50,5 +86,10 @@
     <string name="pogreskaPriDohvatu">Pogreska pri dohvatu podataka</string>
     <string name="actionBarLogin">Prijava</string>
     <string name="actionBarRegistracija">Registracija</string>
+
+    <string name="stalnaAkcija">Stalna akcija</string>
+    <string name="datumUskoro">Datum uskoro</string>
+    <string name="radnoVrijeme">Cijeli dan</string>
+    <string name="errorDohvat">Pogreška pri dohvatu podataka</string>
 
 </resources>

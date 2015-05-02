@@ -19,28 +19,60 @@
     <string name="btnReg">Reg</string>
     <string name="title_activity_instructions">Donation instructions</string>
 
-    <string name="instructions">INSTRUCTIONS AND REMARKS FOR DONATING\n\n\n
+    <string name="instructions">WHO CAN DONATE BLOOD?\n\n
 
-        &#8226;  Superiority grandeur pious holiest intentions. Derive enlightenment god philosophy contradict salvation. Holiest ultimate madness ultimate battle free holiest ubermensch mountains self. Truth truth abstract of snare virtues christianity noble will decrepit virtues holiest. Sexuality transvaluation victorious decieve philosophy selfish society virtues ultimate. Burying faithful decrepit against virtues. Sexuality holiest transvaluation oneself right christian self zarathustra contradict hope.\n\n
+        Blood can be donated by anyone who is healthy:\n
+        &#8226;  Age: from 18 to 65 years old\n
+        &#8226;  Body weight: above 55 kg, proportional to its weight\n
+        &#8226;  Body temperature: not above 37 °C\n
+        &#8226;  Blood pressure: systolic 100 to 180 mm Hg, diastolic 60 to 110 mm Hg\n
+        &#8226;  Puls: 50 to 100 beats per minute\n\n\n
 
-        &#8226;  Mountains love disgust salvation pious moral eternal-return transvaluation law pinnacle christianity. Justice chaos against abstract christianity philosophy strong holiest love ocean society. Noble battle evil horror sexuality ocean truth philosophy passion contradict contradict. Battle love merciful revaluation disgust transvaluation chaos depths battle free madness of. Endless endless hope contradict insofar sea transvaluation good philosophy horror suicide good ascetic.\n\n
+        WHO IS NOT ALLOWED TO DONATE BLOOD?\n\n
+        Some blood donors  are permanently rejected because they can be infected and can be a great risk:\n
+        &#8226;  alcohol and drug addicts\n
+        &#8226;  men that have had sexual relationships with other men\n
+        &#8226;  women and men that have had sexual relationships witch a prostitues\n
+        &#8226;  people that are very often changing their sexual partners\n
+        &#8226;  people that have been taking drugs via needles\n
+        &#8226;  people that have been treated from STD-s\n
+        &#8226;  people that are HIV-positive\n
+        &#8226;  sexual partners of all above listed people\n\n\n
 
-        &#8226;  Abstract gains self law reason battle value society ideal chaos chaos ultimate depths war. Truth zarathustra snare against burying abstract victorious. Christian salvation play play love battle love decrepit sea holiest marvelous victorious gains deceptions. Contradict zarathustra faithful sea hope. Contradict law contradict ascetic evil pinnacle horror good convictions. Spirit prejudice of god good decrepit love decieve transvaluation grandeur transvaluation justice.\n\n
+        HOW LONG WILL IT TAKE TO REPLENISH THE PINT OF BLOOD I DONATE?\n\n
+        The plasma from your donation is replaced within about 24 hours. Red cells need about four to six weeks for complete replacement. That’s why at least eight weeks are required between whole blood donations.\n\n\n
 
-        &#8226;  Ideal good ocean spirit moral against. Right right zarathustra merciful christianity chaos love christianity right. Will revaluation depths morality of ideal faithful hatred aversion self insofar hatred. Abstract society aversion hatred grandeur of. Reason ocean depths eternal-return spirit.\n\n
+        DOES THE RED CROSS PAY BLOOD DONORS?\n\n
+        No. All Red Cross blood donors are volunteers. In fact, all blood collected for transfusion  must be from volunteer donors.\n\n\n
 
-        &#8226;  Faith holiest love suicide of overcome decrepit law sexuality. Will holiest overcome of superiority. Evil fearful good god depths intentions enlightenment depths. Victorious faith inexpedient society value sexuality.\n\n
 
-        &#8226;  Transvaluation pious marvelous reason insofar ocean will ideal victorious aversion hatred victorious. Gains self insofar joy hope. Faithful good love sexuality mountains play christianity marvelous. Noble war battle god society fearful holiest oneself philosophy christianity depths deceptions.\n\n
+        BEFORE YOUR DONATION\n\n
+        &#8226;  Maintain a healthy iron level in your diet by eating iron rich foods, such as red meat, fish, poultry, beans, spinach, iron-fortified cereals and raisins.\n
+        &#8226;  Get a good night sleep.\n
+        &#8226;  Drink an extra 16 oz. of water or nonalcoholic fluids before the donation.\n
+        &#8226;  Eat a healthy meal before your donation. Avoid fatty foods, such as hamburgers, fries or ice cream before donating. (Fatty foods can affect the tests we do on your blood. If there is too much fat in your blood, your donation cannot be tested for infectious diseases and the blood will not be used for transfusion.)\n\n\n
 
-        &#8226;  Intentions philosophy joy zarathustra christian madness war ubermensch strong oneself chaos salvation decrepit. Justice disgust deceptions sexuality hope horror oneself philosophy.\n\n</string>
+        AFTER YOUR DONATION\n\n
+        &#8226;  Take the time to enjoy a snack and a drink in the refreshments area immediately after donating.\n
+        &#8226;  rink an extra four (8 ounce) glasses of liquids and avoid alcohol over the next 24 hours.\n
+        &#8226;  Remove the wrap bandage (if you had one put on your arm) within the next hour.
+
+        </string>
 
 
     <string name="naslovDialoga">Blood4You</string>
 
-    <string name="opisAplikacije">Blood4You je Android aplikacija koja darivateljima krvi pomaže pratiti akcije darivanja krvi. Uz to podsjeća korisnika kada može ponovo dati krv, prikazuje mu povijest darivanja krvi, pomoću push notifikacije prikazuje kada se pojavi nova akcija darivanja krvi, prikazuje mu lokaciju gdje se akcija održava te ga navigira prema lokaciji, omogućuje mu postavljanje prikladnog statusa na društvene mreže te statistike darivanja.</string>
+    <string name="opisAplikacije">Blood4You is an Android Application which
+helps blood donors to track blood donating
+events around the city. It reminds the user
+when the blood donating cooldown is over and when
+he is ready to donate blood again. Application stores
+information about blood donations that took place in the past and shows
+them to the user. Application uses push notifications and shows the location
+of the next blood donating event. User can share and update his blood donating status
+via social networks and invite his friends to take part in those activites too.</string>
 
-    <string name="opisTima">Aplikacija je djelo Trip tima kojeg čine:\nDenis Glad\nTimotej Jarc\nMatko Horvat</string>
+    <string name="opisTima">Applications is made by team Trip:\nDenis Glad\nTimotej Jarc\nMatko Horvat</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
     <string name="title_activity_list">List</string>
@@ -49,5 +81,10 @@
     <string name="toastNemaInterneta">Network is not available!</string>
     <string name="dialogGumbOk">Close</string>
     <string name="pogreskaPriDohvatu"></string>
+
+    <string name="stalnaAkcija">Continuous action</string>
+    <string name="datumUskoro">Date will be announced</string>
+    <string name="radnoVrijeme">Whole day</string>
+    <string name="errorDohvat">Handling data error</string>
 
 </resources>

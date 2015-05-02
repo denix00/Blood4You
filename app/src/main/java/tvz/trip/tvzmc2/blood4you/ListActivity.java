@@ -73,15 +73,15 @@ public class ListActivity extends ActionBarActivity {
                         //ako nema datuma i nije izvanredna, znaci da se svakodnevno moze dati krv
                         //ako nema datuma, akcija je najavljena i datum ce biti uskoro dostupan
                         if (datum == null && izvanredna == false) {
-                            datum = "Stalna akcija";
+                            datum = getString(R.string.stalnaAkcija);
                         } else if (datum == null) {
-                            datum = "Datum uskoro";
+                            datum = getString(R.string.datumUskoro);
                         }
                         //   Log.d("datum" + i, datum.toString());
                         //   Log.d("izvanredna" + i, izvanredna.toString());
                         String radnoVrijeme = list.get(i).getString("radnoVrijeme");
                         if (radnoVrijeme == null) {
-                            radnoVrijeme = "Cijeli dan";
+                            radnoVrijeme = getString(R.string.radnoVrijeme);
                         }
                         //   Log.d("radnoVrijeme" + i, radnoVrijeme);
 
@@ -92,7 +92,7 @@ public class ListActivity extends ActionBarActivity {
                 }
                 //doslo je do pogreske, umjesto naziva grada sorenu napomenu da je doslo do pogreske pri dohvatu podataka
                 else {
-                    String grad = "Pogreska pri dohvatu podataka";
+                    String grad = getString(R.string.errorDohvat);
                     String adresa = "";
                     String datum = "error";
                     Boolean izvanredna = true;
