@@ -25,7 +25,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:clickable="true"
-        android:onClick="clickHandlerBtnPopisAkcija"/>
+        android:onClick="btnDonateClickHandler"/>
 
     <Button
         android:layout_width="160dp"
@@ -39,7 +39,7 @@
         android:paddingRight="8dp"
         android:textSize="12sp"
         android:width="165dp"
-        android:onClick="clickHandlerInstructions"
+        android:onClick="btnWhyDonateCLickHandler"
         android:textColor="@color/textColor"
         android:layout_gravity="center"
         android:layout_centerHorizontal="true"
@@ -66,7 +66,7 @@
         android:id="@+id/btnHelp"
         android:background="@drawable/round_btn"
         android:clickable="true"
-        android:onClick="clickHandlerHelp"
+        android:onClick="btnHelpClickHandler"
         android:textColor="@color/textColor"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />

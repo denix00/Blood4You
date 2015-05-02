@@ -13,6 +13,8 @@ public class WhyDonateBlood extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_why_donate_blood);
+
+        //zakljucavanje orijentacije ekrana u portret
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 

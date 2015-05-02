@@ -7,12 +7,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
+//ekran s uputama i napomenama za davatelje krvi, nema dodatnih opcija, samo ucitava dizajn iz activity_instructions.xml
+
 public class Instructions extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_instructions);
+
+        //zakljucavanje orijentacije ekrana u portret
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 

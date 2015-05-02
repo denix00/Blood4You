@@ -1,6 +1,7 @@
 package tvz.trip.tvzmc2.blood4you;
 
-import java.util.Date;
+
+//klasa koja se koristi za spremanje liste lokacija u ListActivity.java i SpecialAdapter.java
 
 
 public class Lokacija {

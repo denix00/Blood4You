@@ -9,16 +9,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.parse.Parse;
-import com.parse.ParseInstallation;
-
-
 public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //zakljucavanje orijentacije ekrana u portret
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 
@@ -44,21 +42,23 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void clickHandlerInstructions(View view)
+    //metoda se pokrece klikom na btnWhyDonate, pokrece Instruction aktivnost
+    public void btnWhyDonateCLickHandler(View view)
     {
         Intent intentInstructions = new Intent(this, Instructions.class);
         startActivity(intentInstructions);
     }
 
-
-    public void clickHandlerHelp (View view)
+    //metoda se pokrece klikom na btnHelp, pokrece HelpDialogClass koja prikazuje Dialog prozor s kratkim opisom aplikacije i clanova tima
+    public void btnHelpClickHandler (View view)
     {
         DialogFragment helpDialogFragment = new HelpDialogClass();
         helpDialogFragment.show(getFragmentManager(), "helpProzor");
 
     }
 
-    public void clickHandlerBtnPopisAkcija (View view)
+    //metoda se pokrece klikom na btnDonate, pokrece ListActivity aktivnost
+    public void btnDonateClickHandler (View view)
     {
         Intent intentListActivity = new Intent (this, ListActivity.class);
         startActivity(intentListActivity);

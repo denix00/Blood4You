@@ -30,6 +30,7 @@
         android:layout_marginRight="6dp"
         android:src="@drawable/logo"
         android:maxHeight="50dp"
-        android:maxWidth="50dp" />
+        android:maxWidth="50dp"
+        android:id="@+id/slikica"/>
 
 </LinearLayout>
